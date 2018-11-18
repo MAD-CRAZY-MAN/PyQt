@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="background">
+    <file>배경.png</file>
+    <file>esc.png</file>
+  </qresource>
+</RCC>

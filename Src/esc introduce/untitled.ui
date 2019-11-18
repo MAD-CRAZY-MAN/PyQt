@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1680</width>
+    <height>1049</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>-10</y>
+      <width>1680</width>
+      <height>1050</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>ArrowCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="menu">
+     <property name="cursor">
+      <cursorShape>ArrowCursor</cursorShape>
+     </property>
+     <widget class="QPushButton" name="intro_bt">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>465</y>
+        <width>240</width>
+        <height>120</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>나눔스퀘어 ExtraBold</family>
+        <pointsize>15</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>ESC 소개</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="member_bt">
+      <property name="geometry">
+       <rect>
+        <x>720</x>
+        <y>465</y>
+        <width>240</width>
+        <height>120</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>나눔스퀘어 ExtraBold</family>
+        <pointsize>15</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>동아리 원</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="achive_bt">
+      <property name="geometry">
+       <rect>
+        <x>1200</x>
+        <y>465</y>
+        <width>240</width>
+        <height>120</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>나눔스퀘어 ExtraBold</family>
+        <pointsize>15</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>E.S.C 활동</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="main_bg" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1680</width>
+        <height>1050</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/background/배경.png);</string>
+      </property>
+     </widget>
+     <zorder>main_bg</zorder>
+     <zorder>intro_bt</zorder>
+     <zorder>member_bt</zorder>
+     <zorder>achive_bt</zorder>
+    </widget>
+    <widget class="QWidget" name="intro">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(85, 255, 255);</string>
+     </property>
+     <widget class="QPushButton" name="esc_1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>100</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/background/esc.png);
+border: none;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>590</x>
+        <y>360</y>
+        <width>511</width>
+        <height>311</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>50</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>embedded
+SoftWare
+communication</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="member">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 0);</string>
+     </property>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>180</y>
+        <width>661</width>
+        <height>511</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>50</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>동아리 장: 최승호
+동아리 원: 고정현
+동아리 원: 안소현
+동아리 원: 노시현
+동아리 원: 김해건</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="esc_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>100</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/background/esc.png);
+border: none;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="achieve">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(170, 85, 255);</string>
+     </property>
+     <widget class="QPushButton" name="esc_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>100</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/background/esc.png);
+border: none;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>340</y>
+        <width>381</width>
+        <height>341</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>50</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>성과</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="image.qrc"/>
+  <include location="image/image.qrc"/>
+ </resources>
+ <connections/>
+</ui>
